@@ -1,0 +1,3 @@
+displayName = Event Horizon Mod
+author = Sagittarius8710
+version = 0.1
