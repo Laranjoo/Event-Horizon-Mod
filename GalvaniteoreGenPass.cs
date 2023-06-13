@@ -23,7 +23,7 @@ namespace EventHorizons.Commons.Systems.Genpasses
             for (int i = 0; i < maxToSpawn; i++)
             {
                 int x = WorldGen.genRand.Next(100, Main.maxTilesX - 100);
-                int y = WorldGen.genRand.Next(Main.worldSurface * 0.35, Main.worldSurface * 0);
+                int y = WorldGen.genRand.Next((int)Main.worldSurface * 0.35, (int)Main.worldSurface * 0);
 
                 WorldGen.TileRunner(x, y, WorldGen.genRand.Next(3, 6), WorldGen.genRand.Next(2, 5), ModContent.TileType<Galvaniteore>());
             } 
