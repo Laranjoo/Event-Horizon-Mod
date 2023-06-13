@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria;
-using Terraria.ModLoader;
 using EventHorizons.Tiles;
+using Terraria;
 using Terraria.IO;
+using Terraria.ModLoader;
 using Terraria.WorldBuilding;
 
 namespace EventHorizons.Commons.Systems.Genpasses
@@ -19,14 +14,14 @@ namespace EventHorizons.Commons.Systems.Genpasses
         {
             progress.Message = "Charging up space";
 
-            int maxToSpawn = (int)(Main.maxTilesX * Main.maxTilesY * 6E-05);
+            int maxToSpawn = (int)(Main.maxTilesX * Main.maxTilesY * 1E-02);
             for (int i = 0; i < maxToSpawn; i++)
             {
                 int x = WorldGen.genRand.Next(100, Main.maxTilesX - 100);
-                int y = WorldGen.genRand.Next((int)Main.worldSurface * 0.35, (int)Main.worldSurface * 0);
+                int y = WorldGen.genRand.Next((int)Main.worldSurface * 0, (int)((int)Main.worldSurface * 0.35f));
 
-                WorldGen.TileRunner(x, y, WorldGen.genRand.Next(3, 6), WorldGen.genRand.Next(2, 5), ModContent.TileType<Galvaniteore>());
-            } 
+                WorldGen.TileRunner(x, y, WorldGen.genRand.Next(1, 3), WorldGen.genRand.Next(3, 5), ModContent.TileType<Galvaniteore>());
+            }
         }
     }
 
