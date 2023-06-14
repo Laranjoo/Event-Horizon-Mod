@@ -5,7 +5,7 @@ using Terraria.GameContent.Creative;
 using EventHorizons.Items.Armor;
 using EventHorizons.Items.Placeables;
 
-namespace EventHorizons.Items.Armor
+namespace EventHorizons.Armor
 {
 	[AutoloadEquip(EquipType.Legs)]
 	public class GalvaniteLeggings : ModItem
