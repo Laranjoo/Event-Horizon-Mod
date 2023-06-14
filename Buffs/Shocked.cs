@@ -12,12 +12,14 @@ namespace EventHorizons.Buffs
 		}
 		public override void Update(Player player, ref int buffIndex) 
 		{
-			timer++;
-			if (timer % 60 == 0)
+			while(timer = 0, timer < 1000000, timer++)
 			{
-				player.statLife -= 4; // Adjust the damage as per your preference
-            			player.lifeRegenTime = 0;
-            			player.lifeRegen -= 2;
+				if (timer % 60 == 0)
+				{
+					player.statLife -= 4; // Adjust the damage as per your preference
+            				player.lifeRegenTime = 0;
+            				player.lifeRegen -= 2;
+				}
 			}
 		}
 	}
