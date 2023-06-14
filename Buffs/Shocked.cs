@@ -12,7 +12,7 @@ namespace EventHorizons.Buffs
 		}
 		public override void Update(Player player, ref int buffIndex) 
 		{
-			while(timer = 0, timer < 1000000, timer++)
+			for(timer = 0, timer < 1000000, timer++)
 			{
 				if (timer % 60 == 0)
 				{
