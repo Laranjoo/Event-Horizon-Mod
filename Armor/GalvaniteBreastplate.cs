@@ -11,7 +11,7 @@ using Terraria.ModLoader;
 using EventHorizons.Projectiles;
 using EventHorizons.Items.Placeables;
 
-namespace EventHorizons.Items.Armor
+namespace EventHorizons.Armor
 {
     [AutoloadEquip(EquipType.Body)]
 	public class GalvaniteBreastplate : ModItem
