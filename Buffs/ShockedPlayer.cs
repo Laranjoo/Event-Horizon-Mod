@@ -6,7 +6,7 @@ namespace EventHorizons.Buffs
 {
     public class ShockedPlayer : ModPlayer
     {
-        public bool HasGalvaniteArmor = false;
+        public bool HasGalvaniteArmor;
         public override void OnHitNPC(NPC target, NPC.HitInfo hit, int damageDone)
         {
             int chance = Main.rand.Next(3);
