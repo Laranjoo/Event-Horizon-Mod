@@ -27,7 +27,7 @@ namespace EventHorizons.Items.Armor
 		}
 		public override bool IsArmorSet(Item head, Item body, Item legs) 
 		{
-			return body.type == ModContent.ItemType<Items.Armor.GalvaniteBreastplate>() && legs.type == ModContent.ItemType<Items.Armor.GalvaniteLeggings>();
+			return body.type == ModContent.ItemType<Armor.GalvaniteBreastplate>() && legs.type == ModContent.ItemType<Armor.GalvaniteLeggings>();
 		}
 		public override void UpdateArmorSet(Player player) 
 		{
