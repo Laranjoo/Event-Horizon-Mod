@@ -6,7 +6,7 @@ using EventHorizons.Buffs;
 using EventHorizons.Players;
 using EventHorizons.Items.Placeables;
 
-namespace EventHorizons.Items.Armor
+namespace EventHorizons.Armor
 {
 	[AutoloadEquip(EquipType.Head)]
 	public class GalvaniteHelmet : ModItem
