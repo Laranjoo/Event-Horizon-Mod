@@ -31,7 +31,7 @@ namespace EventHorizons.Items.Armor
 		}
 		public override void UpdateArmorSet(Player player) 
 		{
-			player.setBonus = "Ranged and Magic attacks have a chnace to apply the Shocked debuff.";
+			player.setBonus = "Ranged and Magic attacks have a 33% chance to apply the Shocked debuff.";
 			player.GetModPlayer<ShockedPlayer>().HasGalvaniteArmor = true;
 		}
 		public override void AddRecipes()
