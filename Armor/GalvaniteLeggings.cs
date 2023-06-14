@@ -2,7 +2,6 @@ using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
 using Terraria.GameContent.Creative;
-using EventHorizons.Items.Armor;
 using EventHorizons.Items.Placeables;
 
 namespace EventHorizons.Armor
