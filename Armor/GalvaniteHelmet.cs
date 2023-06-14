@@ -11,7 +11,6 @@ namespace EventHorizons.Armor
 	[AutoloadEquip(EquipType.Head)]
 	public class GalvaniteHelmet : ModItem
 	{
-		int chance = Main.rand.Next(3);
 		public override void SetStaticDefaults() {
 
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
