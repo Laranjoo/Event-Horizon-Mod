@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8H7YPV6fvmgjMyGpehPA1NMpG4270h77IWquveJVjdzxyI7wu07e+ZKoEgTS+g9hJtdKC8lpQrz43tCxhQUR8Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\evere\\OneDrive\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\EventHorizons\\EventHorizons.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\evere\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
